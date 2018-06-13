@@ -63,3 +63,46 @@ INSERT INTO `burnrate_db`.`Expenses`
 (`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
 VALUES
 (1, curdate(), 546.6, "Expe2", curdate(), curdate(), 4);
+
+
+-- INCOME TABLE
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco1", curdate(), curdate(), 1);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco2", curdate(), curdate(), 1);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco3", curdate(), curdate(), 2);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco4", curdate(), curdate(), 2);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco5", curdate(), curdate(), 3);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco6", curdate(), curdate(), 3);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco7", curdate(), curdate(), 4);
+
+INSERT INTO `burnrate_db`.`Incomes`
+(`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
+VALUES
+(1, curdate(), 546.6, "Inco7", curdate(), curdate(), 4);
