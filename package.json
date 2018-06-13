@@ -1,0 +1,27 @@
+{
+  "name": "burnrate-backend",
+  "version": "1.0.0",
+  "description": "Financial Information",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ballparkburnrate/burnrate-backend.git"
+  },
+  "author": "Julian Hamilton Edward Nguyen Gerardo Garcia Maribel Jaramillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ballparkburnrate/burnrate-backend/issues"
+  },
+  "homepage": "https://github.com/ballparkburnrate/burnrate-backend#readme",
+  "keywords": [
+    "business",
+    "finance",
+    "financial"
+  ]
+}
