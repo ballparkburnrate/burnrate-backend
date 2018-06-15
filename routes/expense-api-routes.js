@@ -38,6 +38,18 @@ module.exports = function (app) {
         });
     });
 
+    app.get("/api/expenses/by-category/:id", (req, res) => {
+        db.Expense.findAll({
+            attributes: ['category', [db.sequelize.fn('SUM', db.sequelize.col('amount')), 'amount']],
+            where: {
+                UserId: req.params.id
+            },
+            group: ['category']            
+        }).then(function (dbExpense) {
+            res.json(dbExpense);
+        });
+    });
+
     app.post("/api/expenses", function (req, res) {
         db.Expense.create(req.body).then(function (dbExpense) {
             res.json(dbExpense);
