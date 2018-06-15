@@ -106,3 +106,25 @@ INSERT INTO `burnrate_db`.`Incomes`
 (`isRecurring`, `date`, `amount`, `category`, `createdAt`, `updatedAt`, `UserId`)
 VALUES
 (1, curdate(), 546.6, "Inco7", curdate(), curdate(), 4);
+
+-- CASH TABLE
+
+INSERT INTO `burnrate_db`.`Cash`
+(`date`,`amount`,`createdAt`,`updatedAt`,`UserId`)
+VALUES
+(curdate(), 5678, curdate(), curdate(), 1);
+
+INSERT INTO `burnrate_db`.`Cash`
+(`date`,`amount`,`createdAt`,`updatedAt`,`UserId`)
+VALUES
+(curdate(), 5678, curdate(), curdate(), 2);
+
+INSERT INTO `burnrate_db`.`Cash`
+(`date`,`amount`,`createdAt`,`updatedAt`,`UserId`)
+VALUES
+(curdate(), 5678, curdate(), curdate(), 3);
+
+INSERT INTO `burnrate_db`.`Cash`
+(`date`,`amount`,`createdAt`,`updatedAt`,`UserId`)
+VALUES
+(curdate(), 5678, curdate(), curdate(), 4);
